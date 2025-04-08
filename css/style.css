@@ -1,0 +1,35 @@
+body {
+  background-color: #e3e5f5;
+}
+.card {
+  background-color: white;
+  max-width: 350px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+h2.title,
+p.subtitle {
+  text-align: center;
+  font-weight: bold;
+}
+.social-login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.social-login button {
+  background-color: white;
+  border: 1px solid #f7f6f7;
+}
+.google-btn img,
+.fb-btn img {
+  width: 30px;
+}
+.google-btn {
+  display: flex;
+}
+.email-login {
+  display: flex;
+  flex-direction: column;
+}
